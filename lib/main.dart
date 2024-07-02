@@ -128,11 +128,12 @@ class _MyAppState extends State<MyApp> {
                       child: Container(
                         width: 300,
                         height: 500,
-                        color: Colors.red,
+                        color: Colors.white,
                         child: Center(
                           child: Text(
                             cardInfo.ideaFR,
-                            style: TextStyle(fontSize: 24, color: Colors.white),
+                            style: const TextStyle(
+                                fontSize: 24, color: Colors.black),
                           ),
                         ),
                       ),
